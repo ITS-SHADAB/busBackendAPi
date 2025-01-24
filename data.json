@@ -1,0 +1,259 @@
+{
+  "success": true,
+  "data": {
+    "ToCityId": 4562,
+    "FromCityId": 4292,
+    "Buses": [
+      {
+        "IsCovidSafe": false,
+        "HasPGCharges": false,
+        "IsGPS": true,
+        "IsPremium": false,
+        "IsFlexi": false,
+        "NonRefundable": false,
+        "MTicket": true,
+        "v": 3930,
+        "CompanyId": 28253,
+        "ProvCompId": 0,
+        "ProvId": 15,
+        "RouteBusId": 140,
+        "BusType": {
+          "IsAC": "AC",
+          "Seating": "SLEEPER",
+          "Make": "DELUXE",
+          "Axle": "SINGLE_AXLE",
+          "Axel": "SINGLE_AXLE"
+        },
+        "Pickups": [
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 14:10:00",
+            "PickupArea": "",
+            "PickupName": "majestic",
+            "PickupCode": "140860"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 14:15:00",
+            "PickupArea": "",
+            "PickupName": "ANAND RAO CIRCLE",
+            "PickupCode": "202740"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 14:45:00",
+            "PickupArea": "",
+            "PickupName": "Shantinagar",
+            "PickupCode": "140862"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 14:50:00",
+            "PickupArea": "",
+            "PickupName": "Lalbagh, Botanical Garden",
+            "PickupCode": "202739"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 15:15:00",
+            "PickupArea": "",
+            "PickupName": "Madiwala",
+            "PickupCode": "140872"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 15:30:00",
+            "PickupArea": "",
+            "PickupName": "Police Station Madiwala",
+            "PickupCode": "202285"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 15:35:00",
+            "PickupArea": "",
+            "PickupName": "Silkboard",
+            "PickupCode": "140856"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 15:45:00",
+            "PickupArea": "",
+            "PickupName": "Electronic City Toll",
+            "PickupCode": "202738"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 15:50:00",
+            "PickupArea": "",
+            "PickupName": "Bommasandra",
+            "PickupCode": "141102"
+          },
+          {
+            "PickupCrossed": false,
+            "PickupTime": "2022-05-07 16:00:00",
+            "PickupArea": "",
+            "PickupName": "Attibele",
+            "PickupCode": "141100"
+          }
+        ],
+        "Dropoffs": [
+          {
+            "DropoffTime": "2022-05-07 20:45:00",
+            "DropoffName": "Sriperumbudur Toll Gate",
+            "DropoffCode": "319187"
+          },
+          {
+            "DropoffTime": "2022-05-07 21:00:00",
+            "DropoffName": "Poonamallee Bypass",
+            "DropoffCode": "229908"
+          },
+          {
+            "DropoffTime": "2022-05-07 21:25:00",
+            "DropoffName": "Maduravoyal Bypass",
+            "DropoffCode": "319185"
+          },
+          {
+            "DropoffTime": "2022-05-07 21:30:00",
+            "DropoffName": "Koyambedu",
+            "DropoffCode": "229735"
+          },
+          {
+            "DropoffTime": "2022-05-07 21:45:00",
+            "DropoffName": "Central",
+            "DropoffCode": "330733"
+          },
+          {
+            "DropoffTime": "2022-05-07 21:50:00",
+            "DropoffName": "Egmore",
+            "DropoffCode": "229778"
+          }
+        ],
+        "Canc": [
+          {
+            "Amt": 0,
+            "Pct": 100,
+            "Mins": 0
+          },
+          {
+            "Amt": 0,
+            "Pct": 60,
+            "Mins": 360
+          },
+          {
+            "Amt": 0,
+            "Pct": 30,
+            "Mins": 480
+          },
+          {
+            "Amt": 0,
+            "Pct": 25,
+            "Mins": 1440
+          },
+          {
+            "Amt": 0,
+            "Pct": 25,
+            "Mins": 10080
+          },
+          {
+            "Amt": 0,
+            "Pct": 10,
+            "Mins": 43200
+          }
+        ],
+        "Amenities": [
+          22,
+          15,
+          1,
+          10,
+          8,
+          23,
+          14,
+          5,
+          11,
+          0,
+          12,
+          32
+        ],
+        "BusStatus": {
+          "Availability": 25,
+          "RouteBusId": 140,
+          "BaseFares": [
+            866,
+            0
+          ],
+          "DiscFares": [
+            866,
+            0
+          ],
+          "TotalTax": 5
+        },
+        "DisplayBusType": "A/C, Sleeper, Deluxe",
+        "Visibility": true,
+        "CommPct": 9.76,
+        "HasDiscount": false,
+        "DiscountPct": 0,
+        "DiscountAmt": 0,
+        "CompanyNameWithoutSuffix": "G P M TRAVELS",
+        "ToName": "Chennai",
+        "FromName": "Bangalore",
+        "ChartCode": "WOr21sCJLPmUF2OL_lhj-A==|8D7mtGLpqpqxU1W5xGjWlg==",
+        "Duration": "6:41",
+        "BusLabel": "2X1(36) AC-Sleeper -v Deluxe",
+        "CompanyName": "G P M TRAVELS",
+        "ArrTime": "2022-05-07 22:11:00",
+        "DeptTime": "2022-05-07 15:30:00",
+        "TripId": "130259"
+      }
+    ],
+    "AllAmenities": [
+      "Blanket",
+      "Water_Bottle",
+      "Central_TV",
+      "WiFi",
+      "Toilet",
+      "Charging_Point",
+      "Personal_TV",
+      "Snacks",
+      "GPS",
+      "Newspaper",
+      "Emergency_Exit",
+      "Facial_Tissues",
+      "Fire_Extinguisher",
+      "Hammer",
+      "Reading_Light",
+      "Pillow",
+      "Headsets",
+      "Vomiting_Bag",
+      "Novel",
+      "Heater",
+      "CCTV",
+      "Fan",
+      "Water_Bottle_Holder",
+      "First_Aid_Box",
+      "Meal",
+      "Extra_Leg_Space",
+      "Social_Distancing",
+      "Staffs_with_facemask",
+      "Hand_Sanitizer",
+      "Bus_Sanitization",
+      "Thermal_Screening",
+      "Partition_between_sleeper",
+      "Bus_Crew_Covid_Tested",
+      "Passenger_Face_Mask"
+    ],
+    "SocialDistancingLabels": [
+      "Social Distance",
+      "Face Mask",
+      "Hand Sanitizer",
+      "Bus Sanitization",
+      "Thermal Screening",
+      "Adjacent seat empty",
+      "Covid test for Bus Crew",
+      "Passenger Face Mask"
+    ],
+    "TotalAvailSeats": 25,
+    "JourneyDate": "2022-05-07",
+    "ToCityName": "Chennai",
+    "FromCityName": "Bengaluru"
+  }
+}

@@ -1,0 +1,39 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Build output
+/dist
+/build
+
+# Dependency directories
+bower_components/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Coverage directory (for testing tools like Jest, Mocha, etc.)
+/coverage/
+
+# npm package lock files (if not used)
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.swp
+*.swo
+
+
