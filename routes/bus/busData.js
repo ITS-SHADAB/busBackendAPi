@@ -1,6 +1,6 @@
 const express = require('express');
-const { busSaveData } = require('../../controller/bus/BusSaveData');
+const BusSaveData = require('../../controller/bus/BusSaveData');
 const router = express.Router();
 
-router.post('/buses', busSaveData);
+router.post('/buses', BusSaveData);
 module.exports = router;

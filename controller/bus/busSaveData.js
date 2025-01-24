@@ -1,6 +1,6 @@
 const { searchBusData } = require('../../utils/syncWithApi');
 
-const busSaveData = async (req, res) => {
+const BusSaveData = async (req, res) => {
   try {
     // Extract parameters from the request body
     const { fromCityId, toCityId, journeyDate } = req.body;
@@ -27,4 +27,4 @@ const busSaveData = async (req, res) => {
   }
 };
 
-module.exports = { busSaveData };
+module.exports = BusSaveData;

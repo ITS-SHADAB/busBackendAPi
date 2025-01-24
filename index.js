@@ -1,7 +1,6 @@
 const express = require('express');
 require('dotenv').config();
 const dataBaseConnectivity = require('./utils/dataBaseConnectivity');
-require('./utils/cityUpdateScheduler');
 const server = express();
 
 server.use(express.json());
@@ -11,6 +10,9 @@ const busData = require('./routes/bus/busData');
 const busChart = require('./routes/bus/busChartDetail');
 const busById = require('./routes/bus/busById');
 
+server.get('/', (req, res) => {
+  res.json({ message: 'hello world' });
+});
 server.use('/', cityList);
 server.use('/', busData);
 server.use('/', busChart);
